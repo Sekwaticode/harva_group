@@ -1,19 +1,19 @@
 <div align="center">
   
-  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/wildvine)
-  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/wildvine?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/wildvine?style=social)
+  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/volti)
+  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/volti?style=social)
+  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/volti?style=social)
 [![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-  [![YouTube Video Views](https://img.shields.io/youtube/views/6Dj881BJ5kw?style=social)](https://youtu.be/6Dj881BJ5kw)
+  [![YouTube Video Views](https://img.shields.io/youtube/views/EBS4Cl0IK2Q?style=social)](https://youtu.be/EBS4Cl0IK2Q)
 
   <br />
   <br />
 
-  <h2 align="center">Wildvine - Charity website</h2>
+  <h2 align="center">Volti - Electric Vehicle Charging Website</h2>
 
-  Wildvine is a fully responsive charity website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
+  Volti is a fully responsive electric vehicle charging website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
 
-  <a href="https://codewithsadee.github.io/wildvine/"><strong>➥ Live Demo</strong></a>
+  <a href="https://codewithsadee.github.io/volti/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
@@ -21,7 +21,7 @@
 
 ### Demo Screeshots
 
-![Wildvine Desktop Demo](./readme-images/desktop.png "Desktop Demo")
+![Volti Desktop Demo](./readme-images/desktop.png "Desktop Demo")
 
 ### Prerequisites
 
@@ -31,18 +31,18 @@ Before you begin, ensure you have met the following requirements:
 
 ### Run Locally
 
-To run **Wildvine** locally, run this command on your git bash:
+To run **Volti** locally, run this command on your git bash:
 
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/codewithsadee/wildvine.git
+sudo git clone https://github.com/codewithsadee/volti.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/codewithsadee/wildvine.git
+git clone https://github.com/codewithsadee/volti.git
 ```
 
 ### Contact

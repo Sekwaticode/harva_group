@@ -1,461 +1,384 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harva Group</title>
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Volti - Book Your Eco-Friendly Ride</title>
+    <meta name="title" content="Volti - Book Your Eco-Friendly Ride" />
+    <meta
+      name="description"
+      content="This is a vahicle charging html template made by codewithsadee"
+    />
 
     <!-- 
     - favicon
   -->
-    <link rel="shortcut icon" href="assets/images/banner.jpeg" type="image/svg+xml">
+    <!-- <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" /> -->
 
     <!-- 
     - custom css link
   -->
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- header -->
-    <!-- Ionicons -->
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
     <!-- 
-    - google font link
+    - custom font link
   -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@300;400;500;700&family=Oswald:wght@600&display=swap" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="./assets/font/font.css" />
 
-<body>
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/loading.svg" />
+    <link rel="preload" as="image" href="./assets/images/loading-circle.svg" />
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png" />
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #PRELOADER
+
+
+  <div class=" preload-box" data-preloader>
+    <img src="./assets/images/loading.svg" width="45" height="45" alt="loading">
+
+    <img src="./assets/images/loading-circle.svg" width="75" height="75" alt="loading" class="preload-circle">
+  </div> -->
 
     <!-- 
     - #HEADER
   -->
 
     <header class="header" data-header>
-        <div class="container">
+      <div class="container">
+        <a href="#" class="logo">
+          <!-- <img
+            src="./assets/images/logo.svg"
+            width="160"
+            height="50"
+            alt="Harva Group"
+          /> -->
+        </a>
 
-            <h1>
-                <a href="#" class="logo">Harva Group</a>
-            </h1>
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">Home</a>
+            </li>
 
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">Our Objectives</a>
+            </li>
 
-            <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
-        <ion-icon name="menu-outline"></ion-icon>
-      </button>
-
-            <nav class="navbar" data-navbar>
-
-                <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
-          <ion-icon name="close-outline"></ion-icon>
-        </button>
-
-                <a href="#" class="logo">Harva Group</a>
-
-                <ul class="navbar-list">
-                    <li>
-                        <a href="index.html" class="navbar-link">Home</a>
-                    </li>
-
-                    <li>
-                        <a href="services.html" class="navbar-link" data-nav-link>
-                            <span>Service</span>
-
-                            <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="products.html" class="navbar-link" data-nav-link>
-                            <span>Products</span>
-
-                            <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="contact.html" class="navbar-link" data-nav-link>
-                            <span>Contact</span>
-
-                            <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
-                        </a>
-                    </li>
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">Wellness Gallery</a>
+            </li>
 
 
-                </ul>
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
 
-            </nav>
+        <div class="header-action">
+          <a href="tel:+12312345678901" class="contact-number">
+            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
 
-            <div class="header-action">
+            <span class="span">+(123) 1234-567-8901</span>
+          </a>
 
-                <button class="search-btn" aria-label="Search">
-          <ion-icon name="search-outline"></ion-icon>
-        </button>
+          <a href="#" class="btn btn-primary">
+            <span class="span">Book an Appointment</span>
 
-                <button class="btn btn-primary" href="#contacts">
-          <span>Contact</span>
-
-          <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
-        </button>
-
-            </div>
-
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
         </div>
+
+        <button
+          class="nav-toggle-btn"
+          aria-label="toggle menu"
+          data-nav-toggler
+        >
+          <ion-icon
+            name="menu-outline"
+            aria-hidden="true"
+            class="open"
+          ></ion-icon>
+          <ion-icon
+            name="close-outline"
+            aria-hidden="true"
+            class="close"
+          ></ion-icon>
+        </button>
+      </div>
     </header>
 
-
-
     <main>
-        <article>
+      <article>
+        <!-- 
+        - #HERO
+      -->
 
+        <section class="section hero" aria-label="home">
+          <div class="container">
+            <div class="hero-content" data-reveal="left">
+              <h1 class="h1 hero-title">
+                Cultivating <span class="span">Holistic Wellness</span> for Your
+                Health & Prosperity
+              </h1>
 
+              <ul class="hero-list">
+                <li>
+                  <div class="hero-card">
+                    <ion-icon
+                      name="speedometer-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
 
+                    <p class="card-subtitle">Our Focus</p>
 
-            <!-- 
-  - #HERO
--->
+                    <p class="card-title">Holistic Wellness</p>
+                  </div>
+                </li>
 
-            <section class="hero" id="home">
-                <div class="container">
+                <li>
+                  <div class="hero-card">
+                    <ion-icon
+                      name="stopwatch-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
 
-                    <p class="section-subtitle">
-                        <img src="./assets/images/subtitle-img-white.png" width="32" height="7" alt="Wavy line">
-                        <span>Harva Group</span>
-                    </p>
+                    <p class="card-subtitle">Our Approach</p>
 
-                    <h2 class="h1 hero-title">
-                        Cultivating <strong>Health and Vitality</strong> for Generations
-                    </h2>
+                    <p class="card-title">Science-Based Care</p>
+                  </div>
+                </li>
 
-                    <p class="hero-text">
-                        At Harva Group, we inspire holistic wellbeing through science-based innovation, sustainable practices, and meaningful partnerships that empower communities to thrive.
+                <li>
+                  <div class="hero-card">
+                    <ion-icon
+                      name="speedometer-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
 
-                    </p>
+                    <p class="card-subtitle">Our Commitment</p>
 
-                    <button class="btn btn-primary">
-      <span>Explore Our Wellness Solutions</span>
-      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
-    </button>
+                    <p class="card-title">Sustainable Health</p>
+                  </div>
+                </li>
+              </ul>
 
-                </div>
-            </section>
+              <a href="#" class="btn btn-primary">
+                <span class="span">Get in Touch</span>
 
+                <ion-icon
+                  name="arrow-forward-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+              </a>
+            </div>
 
+            <figure class="hero-banner" data-reveal="right">
+              <img
+                src="./assets/images/Connection_Between_Humanity_and_Nature-removebg-preview.png"
+                width="1116"
+                height="766"
+                alt="Holistic Wellness"
+                class="w-100"
+              />
+            </figure> 
+          </div>
+        </section>
 
-            <!-- 
-  - #FEATURES
--->
-
-            <section class="section features">
-                <div class="container">
-
-                    <ul class="features-list">
-
-                        <li class="features-item">
-                            <div class="item-icon">
-                                <ion-icon name="earth-outline"></ion-icon>
-                            </div>
-
-                            <div>
-                                <h3 class="h4 item-title">Sustainable Innovation</h3>
-
-                                <p class="item-text">
-                                    We develop eco-conscious products and solutions that promote long-term wellbeing while caring for our planet.
-                                </p>
-                            </div>
-                        </li>
-
-                        <li class="features-item">
-                            <div class="item-icon">
-                                <ion-icon name="school-outline"></ion-icon>
-                            </div>
-
-                            <div>
-                                <h3 class="h4 item-title">Health Education</h3>
-
-                                <p class="item-text">
-                                    Empowering individuals and communities with science-based knowledge to make healthier, more sustainable lifestyle choices.
-                                </p>
-                            </div>
-                        </li>
-
-                        <li class="features-item">
-                            <div class="item-icon">
-                                <ion-icon name="female-outline"></ion-icon>
-                            </div>
-
-                            <div>
-                                <h3 class="h4 item-title">Holistic Wellness</h3>
-
-                                <p class="item-text">
-                                    Supporting physical, mental, and emotional balance through integrated wellness programs and innovative health products.
-                                </p>
-                            </div>
-                        </li>
-
-                        <li class="features-item">
-                            <div class="item-icon">
-                                <ion-icon name="megaphone-outline"></ion-icon>
-                            </div>
-
-                            <div>
-                                <h3 class="h4 item-title">Partnership & Growth </h3>
-                                <p class="item-text">
-                                    Building alliances with like-minded organizations to foster shared prosperity and advance the global health and wellness movement.
-                                </p>
-                            </div>
-                        </li>
-
-                    </ul>
-
-                </div>
-            </section>
-
-            <!-- 
+        <!-- 
         - #ABOUT
       -->
 
-            <section class="section about" id="about">
-                <div class="container">
+        <section class="section about" aria-labelledby="about-label">
+          <div class="container">
+            <figure class="about-banner" data-reveal="left">
+              <img
+                src="./assets/images/holistic5.png"
+                width="380"
+                height="382"
+                loading="lazy"
+                alt="about banner"
+                class="w-100 img-1"
+              />
 
-                    <div class="about-banner">
+              <img
+                src="./assets/images/holistic.png"
+                width="347"
+                height="349"
+                loading="lazy"
+                alt="about banner"
+                class="w-100 img-2"
+              />
+            </figure>
 
-                        <h2 class="deco-title">About Us</h2>
+            <div class="about-content" data-reveal="right">
+              <p class="section-subtitle has-before" id="about-label">
+                Why We Exist
+              </p>
 
-                        <img src="./assets/images/deco-img.png" width="58" height="261" alt="" class="deco-img">
+              <h2 class="h2 section-title">
+                Together We Inspire Holistic Wellbeing
+              </h2>
 
-                        <div class="banner-row">
+              <p class="section-text">
+                We promote holistic wellbeing through science-based practices,
+                creating innovative products and services that enhance vitality
+                and uplift communities.
+              </p>
 
-                            <div class="banner-col">
-                                <img src="./assets/images/holistic.png" width="315" height="380" loading="lazy" alt="Tiger" class="about-img w-100">
+              <div class="about-wrapper">
+                <div class="about-card">
+                  <div class="title-wrapper">
+                    <ion-icon
+                      name="bonfire-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
 
-                            </div>
+                    <h3 class="card-title">Our Mission</h3>
+                  </div>
 
-                            <div class="banner-col">
-                                <img src="./assets/images/holistic5.png" width="250" height="277" loading="lazy" alt="Elephant" class="about-img about-img-3 w-100">
+                  <p class="card-text">
+                    We inspire total wellbeing by integrating science-backed
+                    health solutions that nurture the mind, body, and
+                    environment.
+                  </p>
+                </div>
 
-                                <!-- <img src="./assets/images/diverse5.jpg" width="315" height="380" loading="lazy" alt="Deer"
-                  class="about-img w-100"> -->
-                            </div>
+                <div class="about-card">
+                  <div class="title-wrapper">
+                    <ion-icon
+                      name="document-text-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
 
+                    <h3 class="card-title">Our Vision</h3>
+                  </div>
+
+                  <p class="card-text">
+                    To cultivate a world where sustainable health, empowerment,
+                    and collective prosperity shape the future of wellness.
+                  </p>
+                </div>
+              </div>
+
+              <ul class="about-list">
+                <li class="about-item">
+                  <ion-icon
+                    name="checkmark-circle"
+                    aria-hidden="true"
+                  ></ion-icon>
+
+                  <span class="span">Science-Based Innovation</span>
+                </li>
+
+                <li class="about-item">
+                  <ion-icon
+                    name="checkmark-circle"
+                    aria-hidden="true"
+                  ></ion-icon>
+
+                  <span class="span">Community Empowerment & Education</span>
+                </li>
+              </ul>
+
+              <a href="#" class="btn btn-primary">
+                <span class="span">Read More</span>
+
+                <ion-icon
+                  name="arrow-forward-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+  - #STATS
+-->
+
+        <section class="section stats" aria-label="statistics">
+          <div class="container">
+            <ul class="stats-list" data-reveal>
+              <li class="stats-card">
+                <h3 class="h3 card-title">65</h3>
+
+                <p class="card-text">
+                  Empowering communities with accessible, science-based wellness
+                  solutions.
+                </p>
+              </li>
+
+              <li class="stats-card">
+                <h3 class="h3 card-title">56</h3>
+
+                <p class="card-text">
+                  Advancing sustainable health initiatives across diverse
+                  regions.
+                </p>
+              </li>
+
+              <li class="stats-card">
+                <h3 class="h3 card-title">125</h3>
+
+                <p class="card-text">
+                  Supporting individuals on their journey toward holistic
+                  wellbeing.
+                </p>
+              </li>
+            </ul>
+
+          
+          </div>
+        </section>
+
+         <section class="section event" id="event">
+        <div class="container">
+
+            <p class="section-subtitle">
+                <!-- <img src="./assets/images/subtitle-img-green.png" width="32" height="7" alt="Wavy line"> -->
+
+                <!-- <span>Contact</span> -->
+
+                <!-- <img src="./assets/images/subtitle-img-green.png" width="32" height="7" alt="Wavy line"> -->
+            </p>
+
+            <h2 class="h2 section-title">
+                Get in touch with us for <strong>Advanced Medical</strong> wellness solutions </h2>
+
+            <section id="contacts" class="contact-section">
+                <div class="contact-container">
+                    <div class="contact-grid">
+                        <!-- Left Image Section -->
+                        <div class="contact-image">
+                            <img src="./assets/images/holistic3.png" alt="National Consciousness Foundation" />
                         </div>
 
-                    </div>
-                    <!-- about content -->
-
-                    <div class="about-content">
-
-                        <p class="section-subtitle">
-                            <img src="./assets/images/subtitle-img-green.png" width="32" height="7" alt="Wavy line">
-                            <span>Why we exist</span>
-                        </p>
-
-                        <h2 class="h2 section-title">
-                            Together We <strong>Inspire Holistic Wellbeing</strong>
-                        </h2>
-
-                        <ul class="tab-nav">
-                            <li>
-                                <button class="tab-btn active">Our Mission</button>
-                            </li>
-                            <li>
-                                <button class="tab-btn">Our Vision</button>
-                            </li>
-                            <li>
-                                <button class="tab-btn">Our Values</button>
-                            </li>
-                        </ul>
-
-                        <div class="tab-content">
-                            <!-- Default content shown on load (Mission) -->
-                            <p class="section-text">
-                                We promote holistic wellbeing through science-based practices, creating innovative products and services that enhance vitality and quality of life. By building strong partnerships and fostering responsible growth, we live our motto — Cultivating Health,
-                                Harvesting Life.
+                        <!-- Right Contact Form Section -->
+                        <div class="contact-form-container">
+                            <h1>Book an appointment!</h1>
+                            <p> Connect with us to discover the right medical solutions for your holistic wellness. Using state-of-the-art technology, we help transform your health from cell to soul — empowering you to live with renewed strength, balance,
+                                and vitality.
                             </p>
 
-                            <ul class="tab-list">
-                                <li class="tab-item">
-                                    <div class="item-icon">
-                                        <ion-icon name="people-circle-outline"></ion-icon>
-                                    </div>
-                                    <p class="tab-text">Science-Based Innovation</p>
-                                </li>
+                            <form id="contact-form" class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                                <input type="hidden" name="access_key" value="57e61543-3fbc-4093-9069-33b6321f355b" />
 
-                                <li class="tab-item">
-                                    <div class="item-icon">
-                                        <ion-icon name="school-outline"></ion-icon>
-                                    </div>
-                                    <p class="tab-text">Community Empowerment</p>
-                                </li>
-
-                                <li class="tab-item">
-                                    <div class="item-icon">
-                                        <ion-icon name="female-outline"></ion-icon>
-                                    </div>
-                                    <p class="tab-text">Sustainable Partnerships</p>
-                                </li>
-
-                                <li class="tab-item">
-                                    <div class="item-icon">
-                                        <ion-icon name="megaphone-outline"></ion-icon>
-                                    </div>
-                                    <p class="tab-text">Civic Action & Advocacy</p>
-                                </li>
-                            </ul>
-
-
-                        </div>
-                    </div>
-
-
-
-                </div>
-
-                </div>
-            </section>
-
-            <!-- 
-        - #CTA
-      -->
-
-            <section class="section cta">
-                <div class="container">
-
-                    <div class="cta-content">
-                        <h2 class="h2 section-title">Cultivating Health, Harvesting Life!</h2>
-                        <h3 class="cta-h3">
-                            We are a Health & Wellness company dedicated to promoting holistic wellbeing through science-based practices. By creating innovative products and services and forging strong partnerships, we foster vitality, promote health and well being, sustainability,
-                            and shared prosperity.</h3>
-
-                        <!-- <button class="btn btn-outline">
-              <span>Become a Partner</span>
-
-              <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
-            </button> -->
-                    </div>
-
-                    <figure class="cta-banner">
-                        <img src="./assets/images/holistic4.png" width="520" height="228" loading="lazy" alt="Fox" class="img-cover">
-                    </figure>
-
-                </div>
-            </section>
-
-
-            <section class="section service" id="service" style="background-image: url('./assets/images/service-map.png')">
-                <div class="container">
-
-                    <p class="section-subtitle">
-                        <img src="./assets/images/subtitle-img-green.png" width="32" height="7" alt="Wavy line">
-                        <span>Our Objectives</span>
-                    </p>
-
-                    <h2 class="h2 section-title">
-                        We Work Together to <strong>Cultivate Health and Prosperity</strong>
-                    </h2>
-
-                    <ul class="service-list">
-
-                        <!-- 1. Holistic Wellness Promotion -->
-                        <li>
-                            <div class="service-card">
-                                <div class="card-icon">
-                                    <ion-icon name="leaf-outline"></ion-icon>
-                                </div>
-                                <h3 class="h3 card-title">Promote Holistic Wellness</h3>
-                                <p class="card-text">
-                                    We inspire total wellbeing by integrating science-based health solutions that nurture the mind, body, and environment for lasting vitality.
-                                </p>
-                            </div>
-                        </li>
-
-                        <!-- 2. Innovation & Sustainability -->
-                        <li>
-                            <div class="service-card">
-                                <div class="card-icon">
-                                    <ion-icon name="flask-outline"></ion-icon>
-                                </div>
-                                <h3 class="h3 card-title">Innovation & Sustainability</h3>
-                                <p class="card-text">
-                                    We drive sustainable health innovation through advanced research, modern wellness technologies, and responsible business practices.
-                                </p>
-                            </div>
-                        </li>
-
-                        <!-- 3. Education & Empowerment -->
-                        <li>
-                            <div class="service-card">
-                                <div class="card-icon">
-                                    <ion-icon name="school-outline"></ion-icon>
-                                </div>
-                                <h3 class="h3 card-title">Education & Empowerment</h3>
-                                <p class="card-text">
-                                    We provide communities with wellness knowledge and practical tools to make informed choices that enhance quality of life across generations.
-                                </p>
-                            </div>
-                        </li>
-
-                        <!-- 4. Strategic Partnerships -->
-                        <li>
-                            <div class="service-card">
-                                <div class="card-icon">
-                                    <ion-icon name="people-circle-outline"></ion-icon>
-                                </div>
-                                <h3 class="h3 card-title">Strategic Partnerships</h3>
-                                <p class="card-text">
-                                    We foster strong alliances with communities, health professionals, and organizations to create a collaborative ecosystem for wellbeing and growth.
-                                </p>
-                            </div>
-                        </li>
-
-                    </ul>
-
-                </div>
-            </section>
-
-
-
-
-            <section class="section event" id="event">
-                <div class="container">
-
-                    <p class="section-subtitle">
-                        <img src="./assets/images/subtitle-img-green.png" width="32" height="7" alt="Wavy line">
-
-                        <span>Contact</span>
-
-                        <img src="./assets/images/subtitle-img-green.png" width="32" height="7" alt="Wavy line">
-                    </p>
-
-                    <h2 class="h2 section-title">
-                        Get in touch with us for <strong>Advanced Medical</strong> wellness solutions </h2>
-
-                    <section id="contacts" class="contact-section">
-                        <div class="contact-container">
-                            <div class="contact-grid">
-                                <!-- Left Image Section -->
-                                <div class="contact-image">
-                                    <img src="./assets/images/holistic3.png" alt="National Consciousness Foundation" />
-                                </div>
-
-                                <!-- Right Contact Form Section -->
-                                <div class="contact-form-container">
-                                    <h1>Book an appointment!</h1>
-                                    <p> Connect with us to discover the right medical solutions for your holistic wellness. Using state-of-the-art technology, we help transform your health from cell to soul — empowering you to live with renewed strength,
-                                        balance, and vitality.
-                                    </p>
-
-                                    <form id="contact-form" class="contact-form" action="https://api.web3forms.com/submit" method="POST">
-                                        <input type="hidden" name="access_key" value="57e61543-3fbc-4093-9069-33b6321f355b" />
-
-                                        <div class="form-grid">
-                                            <input type="text" name="name" placeholder="Your Full Name" required />
-                                            <input type="email" name="email" placeholder="Your Email Address" required />
-                                            <input type="text" name="mobile" placeholder="Your Mobile Number" required />
-                                            <select name="service" required>
+                                <div class="form-grid">
+                                    <input type="text" name="name" placeholder="Your Full Name" required />
+                                    <input type="email" name="email" placeholder="Your Email Address" required />
+                                    <input type="text" name="mobile" placeholder="Your Mobile Number" required />
+                                    <select name="service" required>
                   <option value="">Select An Area of Interest</option>
                   <option value="Skincare">Skincare</option>
                   <option value="Bone Health">Brain Health</option>
@@ -468,102 +391,540 @@
                   <option value="Physiotherapy">Physiotherapy</option>
                 
                 </select>
-                                        </div>
-
-                                        <textarea name="note" placeholder="Your Message or Inquiry" rows="4"></textarea>
-
-                                        <button class="btn btn-primary" type="submit">Submit</button>
-                                    </form>
                                 </div>
-                            </div>
+
+                                <textarea name="note" placeholder="Your Message or Inquiry" rows="4"></textarea>
+
+                                <button class="btn btn-primary" type="submit">Submit</button>
+                            </form>
                         </div>
+                    </div>
+                </div>
 
-                        <script src="contact.js"></script>
-                    </section>
+                <script src="contact.js"></script>
+            </section>
 
 
-
-
-                    <!-- 
-        - #INSTA POST
+<!-- 
+        - #SERVICE
       -->
 
-                    <section class="insta-post">
+<section class="section service" aria-labelledby="service-label">
+  <div class="container">
+    <p
+      class="section-subtitle has-before"
+      id="service-label"
+      data-reveal
+    >
+      Our Objectives
+    </p>
 
-                        <ul class="insta-post-list">
+    <h2 class="h2 section-title" data-reveal>
+      We Work Together to <strong>Cultivate Health and Prosperity</strong>
+    </h2>
 
-                            <li class="insta-post-item">
-                                <a href="#" class="insta-post-link">
-                                    <img src="./assets/images/insta1.png" width="320" height="300" loading="lazy" alt="Lion" class="img-cover">
+    <div class="wrapper">
+      <ul class="service-list" data-reveal="left">
+        <li class="service-item">
+          <div>
+            <h3 class="h5 card-title">Promote Holistic Wellness</h3>
 
-                                    <ion-icon name="logo-instagram"></ion-icon>
-                                </a>
-                            </li>
+            <p class="card-text">
+              We inspire total wellbeing by integrating science-based health solutions that nurture the mind, body, and environment for lasting vitality.
+            </p>
+          </div>
 
-                            <li class="insta-post-item">
-                                <a href="#" class="insta-post-link">
-                                    <img src="./assets/images/insta2.png" width="320" height="300" loading="lazy" alt="Deer" class="img-cover">
+          <div class="card-icon">
+            <ion-icon name="leaf-outline" aria-hidden="true"></ion-icon>
+          </div>
+        </li>
 
-                                    <ion-icon name="logo-instagram"></ion-icon>
-                                </a>
-                            </li>
+        <li class="service-item">
+          <div>
+            <h3 class="h5 card-title">Innovation & Sustainability</h3>
 
-                            <li class="insta-post-item">
-                                <a href="#" class="insta-post-link">
-                                    <img src="./assets/images/insta3.png" width="320" height="300" loading="lazy" alt="Wild Bear" class="img-cover">
+            <p class="card-text">
+              We drive sustainable health innovation through advanced research, modern wellness technologies, and responsible business practices.
+            </p>
+          </div>
 
-                                    <ion-icon name="logo-instagram"></ion-icon>
-                                </a>
-                            </li>
+          <div class="card-icon">
+            <ion-icon name="flask-outline" aria-hidden="true"></ion-icon>
+          </div>
+        </li>
 
-                            <li class="insta-post-item">
-                                <a href="#" class="insta-post-link">
-                                    <img src="./assets/images/insta4.png" width="320" height="300" loading="lazy" alt="Deer" class="img-cover">
+        <li class="service-item">
+          <div>
+            <h3 class="h5 card-title">Education & Empowerment</h3>
 
-                                    <ion-icon name="logo-instagram"></ion-icon>
-                                </a>
-                            </li>
+            <p class="card-text">
+              We provide communities with wellness knowledge and practical tools to make informed choices that enhance quality of life across generations.
+            </p>
+          </div>
 
-                            <li class="insta-post-item">
-                                <a href="#" class="insta-post-link">
-                                    <img src="./assets/images/insta5.png" width="320" height="300" loading="lazy" alt="Horses" class="img-cover">
+          <div class="card-icon">
+            <ion-icon name="school-outline" aria-hidden="true"></ion-icon>
+          </div>
+        </li>
+      </ul>
 
-                                    <ion-icon name="logo-instagram"></ion-icon>
-                                </a>
-                            </li>
+      <figure
+        class="service-banner img-holder"
+        style="--width: 805; --height: 510"
+      >
+        <img
+          src="./assets/images/holistic8-removebg-preview.png"
+          width="805"
+          height="510"
+          loading="lazy"
+          alt="service banner"
+          class="img-cover"
+        />
+      </figure>
 
-                        </ul>
+      <ul class="service-list" data-reveal="right">
+        <li class="service-item">
+          <div class="card-icon">
+            <ion-icon name="people-circle-outline" aria-hidden="true"></ion-icon>
+          </div>
 
-                    </section>
+          <div>
+            <h3 class="h5 card-title">Strategic Partnerships</h3>
 
-        </article>
-    </main>
+            <p class="card-text">
+              We foster strong alliances with communities, health professionals, and organizations to create a collaborative ecosystem for wellbeing and growth.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-    <!-- 
+<!-- 
+        - #CTA
+      -->
+
+<section class="cta">
+  <div class="container">
+    <div class="cta-card" data-reveal="left">
+      <div>
+        <h2 class="h1 card-title">Cultivating Health, Harvesting Life!</h2>
+
+        <p class="card-text">
+          We are a Health & Wellness company dedicated to promoting holistic wellbeing through science-based practices. By creating innovative products and services and forging strong partnerships, we foster vitality, promote health and well being, sustainability, and shared prosperity.
+        </p>
+      </div>
+
+    
+    </div>
+
+    <figure class="cta-banner" data-reveal="right">
+      <img
+        src="./assets/images/holistic4.png"
+        width="520"
+        height="228"
+        loading="lazy"
+        alt="Holistic wellness"
+        class="img-cover"
+      />
+    </figure>
+  </div>
+</section>
+
+
+   <!-- 
+    - #BLOG
+-->
+
+<section class="section blog" aria-labelledby="blog-label">
+  <div class="container">
+    <div class="title-wrapper" data-reveal>
+      <div>
+        <p class="section-subtitle has-before" id="blog-label">
+Photobiomodulation Therapy        </p>
+
+        <h2 class="h2 section-title">
+Experience the various benefits of our Photobiomodulation Therapy Services        </h2>
+      </div>
+
+      <a href="#" class="btn btn-secondary">
+        <span class="span">View More Articles</span>
+        <ion-icon
+          name="arrow-forward-outline"
+          aria-hidden="true"
+        ></ion-icon>
+      </a>
+    </div>
+
+    <ul class="blog-list" data-reveal>
+      <li>
+        <div class="blog-card">
+          <figure
+            class="card-banner img-holder"
+            style="--width: 770; --height: 550"
+          >
+            <img
+              src="./assets/images/Outdoor Yoga Session.png"
+              width="770"
+              height="550"
+              loading="lazy"
+              alt="Boosting Brain Health with Photobiomodulation Therapy"
+              class="img-cover"
+            />
+          </figure>
+
+          <div class="card-content">
+            <ul class="card-meta-list">
+              <li class="card-meta-item">
+                <ion-icon
+                  name="person-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+                <span class="span">Harva Team</span>
+              </li>
+
+              <li class="card-meta-item">
+                <ion-icon
+                  name="chatbubble-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+                <span class="span">0 Comments</span>
+              </li>
+            </ul>
+
+            <h3 class="h5">
+              <a href="#" class="card-title">
+                Boosting Brain Health with Photobiomodulation Therapy
+              </a>
+            </h3>
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <div class="blog-card">
+          <figure
+            class="card-banner img-holder"
+            style="--width: 770; --height: 550"
+          >
+            <img
+              src="./assets/images/Radiant Face Close-Up.png"
+              width="770"
+              height="550"
+              loading="lazy"
+              alt="Skin and Cellular Renewal through Light Therapy"
+              class="img-cover"
+            />
+          </figure>
+
+          <div class="card-content">
+            <ul class="card-meta-list">
+              <li class="card-meta-item">
+                <ion-icon
+                  name="person-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+                <span class="span">Harva Team</span>
+              </li>
+
+              <li class="card-meta-item">
+                <ion-icon
+                  name="chatbubble-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+                <span class="span">0 Comments</span>
+              </li>
+            </ul>
+
+            <h3 class="h5">
+              <a href="#" class="card-title">
+                Skin and Cellular Renewal through Light Therapy
+              </a>
+            </h3>
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <div class="blog-card">
+          <figure
+            class="card-banner img-holder"
+            style="--width: 770; --height: 550"
+          >
+            <img
+              src="./assets/images/Focused Gymnast in Action.png"
+              width="770"
+              height="550"
+              loading="lazy"
+              alt="Pain Relief and Recovery with Photobiomodulation"
+              class="img-cover"
+            />
+          </figure>
+
+          <div class="card-content">
+            <ul class="card-meta-list">
+              <li class="card-meta-item">
+                <ion-icon
+                  name="person-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+                <span class="span">Harva Team</span>
+              </li>
+
+              <li class="card-meta-item">
+                <ion-icon
+                  name="chatbubble-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+                <span class="span">0 Comments</span>
+              </li>
+            </ul>
+
+            <h3 class="h5">
+              <a href="#" class="card-title">
+                Pain Relief and Recovery with Photobiomodulation
+              </a>
+            </h3>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+
+<!-- 
+        - #CONTACT
+      -->
+
+<section class="contact" aria-label="contact" data-reveal="right">
+  <div class="container">
+    <ul class="contact-list">
+      <li>
+        <div class="contact-card">
+          <div class="card-icon">
+            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <div>
+            <h3 class="h6">Hotline</h3>
+
+            <a href="tel:+27123456789" class="card-subtitle"
+              >+27 12 345 6789</a
+            >
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <div class="contact-card">
+          <div class="card-icon">
+            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <div>
+            <h3 class="h6">Email Address</h3>
+
+            <a href="mailto:info@harvagroup.com" class="card-subtitle"
+              >info@harvagroup.com</a
+            >
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <div class="contact-card">
+          <div class="card-icon">
+            <ion-icon
+              name="compass-outline"
+              aria-hidden="true"
+            ></ion-icon>
+          </div>
+
+          <div>
+            <h3 class="h6">Our Location</h3>
+
+            <address class="card-subtitle">
+              45 Wellness Ave, Cape Town, South Africa
+            </address>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- 
     - #FOOTER
   -->
 
-    <footer class="footer">
-        <div class="container">
-
-            <ul class="footer-list">
-
-                <li>
-                    <a href="#" class="footer-link">Terms of use</a>
-                </li>
-
-                <li>
-                    <a href="#" class="footer-link">Privacy & Policy</a>
-                </li>
-
-            </ul>
-
-            <p class="copyright">
-                Copyright 2022 <a href="#" class="copyright-link">sekwaticode</a>. All Rights Reserved.
-            </p>
-
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top section" data-reveal>
+      <div class="newsletter-card">
+        <div class="card-icon">
+          <ion-icon
+            name="mail-unread-outline"
+            aria-hidden="true"
+          ></ion-icon>
         </div>
-    </footer>
+
+        <h3 class="h3 card-title">
+          Subscribe for Health & Wellness News
+        </h3>
+
+        <form action="#" class="newsletter-form">
+          <label for="email" class="label">Email address</label>
+
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email address"
+            required
+            class="email-field"
+          />
+
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+      </div>
+
+      <div class="footer-list">
+        <p class="h6 has-after">Harva Group</p>
+
+        <p class="footer-text">
+          A leading wellness and health solutions company in South Africa. We provide holistic programs, research, and partnerships to enhance community wellbeing and sustainability.
+        </p>
+
+        <a href="#" class="btn-outline">
+          <span class="span">Get a Quote</span>
+
+          <ion-icon
+            name="arrow-forward-outline"
+            aria-hidden="true"
+          ></ion-icon>
+        </a>
+      </div>
+
+      <ul class="footer-list">
+        <li>
+          <p class="h6 has-after">Company Info</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">About Us</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Our Projects</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Meet Our Team</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">News & Media</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Contact Us</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Careers</a>
+        </li>
+      </ul>
+
+      <ul class="footer-list">
+        <li>
+          <p class="h6 has-after">Quick Contact</p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+            45 Wellness Ave, Cape Town, South Africa
+          </address>
+        </li>
+
+        <li>
+          <p class="footer-text">
+            Reach out to our team for any inquiries or support.
+          </p>
+        </li>
+
+        <li>
+          <a href="tel:+27123456789" class="contact-link"
+            >+27 12 345 6789</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer-bottom">
+      <div>
+        <ul class="footer-bottom-list">
+          <li>
+            <a href="#" class="footer-bottom-link">Where to Find Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Terms & Conditions</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+        </ul>
+
+        <p class="copyright">Made with love @harvagroup</p>
+      </div>
+
+      <img
+        width="100"
+        height="63"
+        loading="lazy"
+        alt="Harva Group Logo"
+      />
+
+      <ul class="social-list">
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-facebook" aria-hidden="true"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-twitter" aria-hidden="true"></ion-icon>
+          </a>
+        </li>
+<!-- 
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-youtube" aria-hidden="true"></ion-icon>
+          </a>
+        </li> -->
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-linkedin" aria-hidden="true"></ion-icon>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a href="#top" class="back-top-btn" aria-label="go to top" data-go-top-btn>
+      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
 
     <!-- 
     - custom js link
@@ -573,9 +934,13 @@
     <!-- 
     - ionicon link
   -->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>

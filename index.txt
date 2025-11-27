@@ -1,247 +1,228 @@
-Wildvine - Give Love for Saving World Animals
+Volti - Book Your Eco-Friendly Ride
+
+This is a vahicle charging html template made by codewithsadee
 
 
 
 #---------- HEADER ----------#
 
-Wildvine
-
-English
-French
-Spanish
-
-aria-label = Open Menu
-<ion-icon name="menu-outline"></ion-icon>
-
-aria-label = Close Menu
-<ion-icon name="close-outline"></ion-icon>
-
-Wildvine
+alt = volti home
 
 Home
-<ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+Services
+Gallery
+Blog
+Contact Us
 
-About
-Service
-Donate
-Event
-Contact
+<ion-icon name="call-outline" aria-hidden="true"></ion-icon>
 
-arial-label = Search
-<ion-icon name="search-outline"></ion-icon>
++(123) 1234-567-8901
 
-Donation
-<ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+Get a quote
+<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+
+aria-label = toggle menu
+
+<ion-icon name="menu-outline" aria-hidden="true" class="open"></ion-icon>
+<ion-icon name="close-outline" aria-hidden="true" class="close"></ion-icon>
 
 
 
 #---------- HERO ----------#
 
-alt = Wavy line
-Welcome to Wildvine
+Book Your 
+New Eco-Friendly 
+Ride.
 
-Give Love for Saving
-World Animals
+<ion-icon name="speedometer-outline" aria-hidden="true"></ion-icon>
+Top speed
+80 km/h
 
-Sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua suspendisse ultrices gravida.
+<ion-icon name="stopwatch-outline" aria-hidden="true"></ion-icon>
+0-40 km/hr in
+3.3 sec
 
-Donation
-<ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+<ion-icon name="checkmark-done-circle-outline" aria-hidden="true"></ion-icon>
+Certified Range
+116 km
 
+Book Now
+<ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
 
-
-#---------- FEATURES ----------#
-
-<ion-icon name="shield-checkmark-outline"></ion-icon>
-
-Safe Shelter
-
-Sit amet consecte adiscine
-eiusm temor ultrices.
-
-<ion-icon name="water-outline"></ion-icon>
-
-Safe Water
-
-<ion-icon name="leaf-outline"></ion-icon>
-
-Ecology Save
-
-<ion-icon name="snow-outline"></ion-icon>
-
-Environment
+alt = Bike
 
 
 
 #---------- ABOUT ----------#
 
-About Us
+alt = about banner
 
-alt = Tiger
-alt = Panda
-alt = Elephant
-alt = Deer
+What We Do!
 
-alt = Wavy line
-Why Choose Us
+Our mission is to put an electric vehicle charge
 
-Rise Your Hand to Save
-World Animals Life
+Charge your electric vehicle at home using one of our smart home char ge solutions or gain access to over 3,000 public charging.
 
-Our Mission
-Our Vision
-Next Plan
+<ion-icon name="bonfire-outline" aria-hidden="true"></ion-icon>
+Zero contact travel
 
-But I must explain to you how all this mistaken denouncing pleasure and praising pain was born and I will give you a complete account of the system expoundmaster
+We love our customers and we love the way they come.
 
-<ion-icon name="checkmark-circle"></ion-icon>
-Charity For Foods
-Charity For Education
-Charity For Water
-Charity For Medical
+<ion-icon name="document-text-outline"></ion-icon>
+No Driving License
 
-Learn More Us
-<ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+<ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+Detachable battery, take home and charge in 3 hours.
+
+
+Enjoy a hassle-free ride by charging just for 3 hours.
+
+Read More
+<ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
 
 
 
-#---------- CTA ----------#
+#---------- STATS ----------#
 
-324+ Trusted Global Partners
+650m
+Check charge status remotely through Ether app
 
-Become a Partner
-<ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+564+
 
-alt = Fox
+125k
+
+alt = Video banner
+
+aria-labe = play video
+<ion-icon name="play" aria-hidden="true"></ion-icon>
 
 
 
 #---------- SERVICE ----------#
 
-What We Do
+What We Do!
 
-We Work Differently to
-keep The World Safe
+What Advantages Will You Get Using An Escooter?
 
-<ion-icon name="leaf-outline"></ion-icon>
-Save Nature
+Recoverable Energy
 
-Tempor incididunt ut labores
-dolore magna suspene
+Charge Your Electric Vehicle At Home Using One Of Our Smart.
+<ion-icon name="car-outline" aria-hidden="true"></ion-icon>
 
-Read More
-<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+Quick Installation
+<ion-icon name="compass-outline" aria-hidden="true"></ion-icon>
 
-<ion-icon name="earth-outline"></ion-icon>
-Save Ecology
-
-<ion-icon name="flower-outline"></ion-icon>
-Tree Plantation
-
-<ion-icon name="boat-outline"></ion-icon>
-Clear Ocean
+Zero Contact Travel
+<ion-icon name="bonfire-outline" aria-hidden="true"></ion-icon>
 
 
 
-#---------- DONATE ----------#
+#---------- CTA ----------#
 
-alt = Elephant
+Designed for the our roads.
 
-Raised
-$256
-83%
+Consectetur adipiscing elit sed do tempor labor dolore magna aliqua quis suspendisse.
 
-Raise Hand To Save Animals
+Book Now
+<ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
 
-Goal
-$34562
-
-Raise
-$562
-
-To Go 
-$864
-
-Donation
-<ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+alt = cta banner
 
 
 
-#---------- TESTIMONIALS ----------#
+#---------- BLOG ----------#
 
-Our Testimonials
+Fresh News
 
-What People Say About
-Our Organization
+Our recent article for the electric vehicle systems
 
-alt = David S. Neuman
+View More Blog
+<ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
 
-Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium totam rem aperiam eaquesa quae abillo inventore veritatis quasi architecto beatae vitae dicta sunt explicabo enimpsam voluptatem
+alt = Energy Star Certified Electric Vehicle Chargers
 
-David S. Neuman
+03 Jun 2022
 
-Business Manager
+<ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+Admin
 
-alt = Rhinoceros
+<ion-icon name="chatbubble-outline" aria-hidden="true"></ion-icon>
+2 Comments
 
+Energy Star Certified Electric Vehicle Chargers
 
+Charging Solution For Electric Car & Hybrid Car
 
-#---------- PARTNER ----------#
-
-alt = Children Fund
-alt = Non Profit Agency
-alt = Rise Hand Help Us
-alt = Helping
-alt = Poor Fund Organization
+Home Charging Station For A Electric Vehicless
 
 
 
-#---------- EVENT ----------#
+#---------- CONTACT ----------#
 
-Event & Program
+<ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+Hot Line
++(01) 1234-57-890
 
-Our Most Popular Causes For
-Building Fund
+<ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+E-mail Address
+voltiinfo@gmail.com
 
-Jan
-05
-
-Ocean Water
-
-Far from the countries Vokalia and Consonantia 2022
-
-Sit amet consectetur adipiscing elit sed do eiusmod tempor
-
-View Events
-<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-
-Feb
-23
-
-Mar
-27
-
-Learn More Us
-<ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
-
-
-
-#---------- INSTA POST ----------#
-
-alt = Lion
-
-<ion-icon name="logo-instagram"></ion-icon>
-
-alt = Deer
-alt = Wild Bear
-alt = Deer
-alt = Horses
+<ion-icon name="compass-outline" aria-hidden="true"></ion-icon>
+Our Location
+101 Avenue, S.E. USA
 
 
 
 #---------- FOOTER ----------#
+<ion-icon name="mail-unread-outline" aria-hidden="true"></ion-icon>
+Sign up for Electric Car,news & inslights
 
-Terms of use
-Privacy & Policy
+Email address
+placeholder = Email address
 
-Copyright 2022 codewithsadee. All Rights Reserved.
+Subscribe
+
+Volti WP Theme
+
+A leading developer of A-grade commercial, electric car and bike projects in USA. Since its foundation the company has doubled its turnover year on year, with its staff numbers.
+
+Get a quote
+<ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+Company Info
+
+About Us
+Our Projects
+Meet Our Team
+News & Media
+Contact Us
+Careers
+
+Quick Contact
+2307 Beverley Rd Brooklyn, New York 11226 United States.
+
+If you have any questions or need help, feel free to contact with our team.
+
+(002) 01061245741
+
+Where to Find Us 
+Terms of Payment 
+Stats Element
+Made with love @codewithsadee
+
+alt = Volti home
+
+<ion-icon name="logo-facebook" aria-hidden="true"></ion-icon>
+
+<ion-icon name="logo-twitter" aria-hidden="true"></ion-icon>
+
+<ion-icon name="logo-youtube" aria-hidden="true"></ion-icon>
+
+<ion-icon name="logo-linkedin" aria-hidden="true"></ion-icon>
+
+
+
+#---------- BACK TO TOP ----------#
+
+aria-label = go to top
+<ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
