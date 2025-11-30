@@ -127,14 +127,12 @@
         <section class="section hero" aria-label="home">
           <div class="container">
             <div class="hero-content" data-reveal="left">
-              <h1 class="h1 hero-title">
-                Cultivating <span class="span">Holistic Wellness</span> for Your
-                Health & Prosperity
-              </h1>
+           <h1 class="h1 hero-title" id="hero-title"></h1>
+
 
               <ul class="hero-list">
                 <li>
-                  <div class="hero-card">
+                  <div class="hero-card" id="hero-card">
                     <ion-icon
                       name="heart-outline"
                       aria-hidden="true"
@@ -174,7 +172,7 @@
               </ul>
 
               <a href="#" class="btn btn-primary">
-                <span class="span">Get in Touch</span>
+                <span class="span" id="hero-cta"></span>
 
                 <ion-icon
                   name="arrow-forward-outline"
@@ -190,6 +188,7 @@
                 height="766"
                 alt="Holistic Wellness"
                 class="w-100"
+                id="hero-image"
               />
             </figure> 
           </div>
@@ -209,6 +208,7 @@
                 loading="lazy"
                 alt="about banner"
                 class="w-100 img-1"
+                id="about-img-1"
               />
 
               <img
@@ -218,22 +218,21 @@
                 loading="lazy"
                 alt="about banner"
                 class="w-100 img-2"
+                id="about-img-2"
               />
             </figure>
 
             <div class="about-content" data-reveal="right">
-              <p class="section-subtitle has-before" id="about-label">
+              <p class="section-subtitle has-before" id="about-subtitle">
                 Why We Exist
               </p>
 
-              <h2 class="h2 section-title">
+              <h2 class="h2 section-title" id="about-title">
                 Together We Inspire Holistic Wellbeing
               </h2>
 
-              <p class="section-text">
-                We promote holistic wellbeing through science-based practices,
-                creating innovative products and services that enhance vitality
-                and uplift communities.
+              <p class="section-text" id="about-text">
+                
               </p>
 
               <div class="about-wrapper">
@@ -244,13 +243,11 @@
                       aria-hidden="true"
                     ></ion-icon>
 
-                    <h3 class="card-title">Our Mission</h3>
+                    <h3 class="card-title" id="mission-title"></h3>
                   </div>
 
-                  <p class="card-text">
-                    We inspire total wellbeing by integrating science-backed
-                    health solutions that nurture the mind, body, and
-                    environment.
+                  <p class="card-text" id="mission-text">
+                   
                   </p>
                 </div>
 
@@ -261,12 +258,11 @@
                       aria-hidden="true"
                     ></ion-icon>
 
-                    <h3 class="card-title">Our Vision</h3>
+                    <h3 class="card-title" id="vision-title"></h3>
                   </div>
 
-                  <p class="card-text">
-                    To cultivate a world where sustainable health, empowerment,
-                    and collective prosperity shape the future of wellness.
+                  <p class="card-text" id="vision-text">
+
                   </p>
                 </div>
               </div>
@@ -309,31 +305,28 @@
 
         <section class="section stats" aria-label="statistics">
           <div class="container">
-            <ul class="stats-list" data-reveal>
+            <ul class="stats-list" data-reveal id="stats-list">
               <li class="stats-card">
-                <h3 class="h3 card-title">65</h3>
+                <h3 class="h3 card-title"></h3>
 
                 <p class="card-text">
-                  Empowering communities with accessible, science-based wellness
-                  solutions.
+                
                 </p>
               </li>
 
               <li class="stats-card">
-                <h3 class="h3 card-title">56</h3>
+                <h3 class="h3 card-title"></h3>
 
                 <p class="card-text">
-                  Advancing sustainable health initiatives across diverse
-                  regions.
+                  
                 </p>
               </li>
 
               <li class="stats-card">
-                <h3 class="h3 card-title">125</h3>
+                <h3 class="h3 card-title"></h3>
 
                 <p class="card-text">
-                  Supporting individuals on their journey toward holistic
-                  wellbeing.
+                
                 </p>
               </li>
             </ul>
@@ -410,21 +403,20 @@
       -->
 
 <section class="section service" aria-labelledby="service-label">
-  <div class="container">
+  <div class="container" >
     <p
       class="section-subtitle has-before"
-      id="service-label"
+      id="objectives-subtitle"
       data-reveal
     >
       Our Objectives
     </p>
 
-    <h2 class="h2 section-title" data-reveal>
-      We Work Together to <strong>Cultivate Health and Prosperity</strong>
+    <h2 class="h2 section-title" data-reveal id="objectives-title">
     </h2>
 
     <div class="wrapper">
-      <ul class="service-list" data-reveal="left">
+      <ul class="service-list" data-reveal="left" id="objectives-left">
         <li class="service-item">
           <div>
             <h3 class="h5 card-title">Promote Holistic Wellness</h3>
@@ -441,12 +433,12 @@
 
         <li class="service-item">
           <div>
-            <h3 class="h5 card-title">Innovation & Sustainability</h3>
+            <h3 class="h5 card-title"></h3>
 
             <p class="card-text">
-              We drive sustainable health innovation through advanced research, modern wellness technologies, and responsible business practices.
+            
             </p>
-          </div>
+          </div> 
 
           <div class="card-icon">
             <ion-icon name="flask-outline" aria-hidden="true"></ion-icon>
@@ -455,10 +447,9 @@
 
         <li class="service-item">
           <div>
-            <h3 class="h5 card-title">Education & Empowerment</h3>
+            <h3 class="h5 card-title"></h3>
 
             <p class="card-text">
-              We provide communities with wellness knowledge and practical tools to make informed choices that enhance quality of life across generations.
             </p>
           </div>
 
@@ -482,17 +473,16 @@
         />
       </figure>
 
-      <ul class="service-list" data-reveal="right">
+      <ul class="service-list" data-reveal="right" id="objectives-right">
         <li class="service-item">
           <div class="card-icon">
             <ion-icon name="people-circle-outline" aria-hidden="true"></ion-icon>
           </div>
 
           <div>
-            <h3 class="h5 card-title">Strategic Partnerships</h3>
+            <h3 class="h5 card-title"></h3>
 
             <p class="card-text">
-              We foster strong alliances with communities, health professionals, and organizations to create a collaborative ecosystem for wellbeing and growth.
             </p>
           </div>
         </li>
@@ -509,17 +499,18 @@
   <div class="container">
     <div class="cta-card" data-reveal="left">
       <div>
-        <h2 class="h1 card-title">Cultivating Health, Harvesting Life!</h2>
+        <h2 class="h1 card-title" id="cta-title">Cultivating Health, Harvesting Life!</h2>
 
-        <p class="card-text">
+        <p class="card-text" id="cta-text">
           We are a Health & Wellness company dedicated to promoting holistic wellbeing through science-based practices. By creating innovative products and services and forging strong partnerships, we foster vitality, promote health and well being, sustainability, and shared prosperity.
+        
         </p>
       </div>
 
     
     </div>
 
-    <figure class="cta-banner" data-reveal="right">
+    <figure class="cta-banner" data-reveal="right" >
       <img
         src="./assets/images/holistic4.png"
         width="520"
@@ -557,7 +548,7 @@ Experience the various benefits of our Photobiomodulation Therapy Services      
       </a>
     </div>
 
-    <ul class="blog-list" data-reveal>
+    <ul class="blog-list" data-reveal id="therapy-list">
       <li>
         <div class="blog-card">
           <figure
@@ -589,13 +580,12 @@ Experience the various benefits of our Photobiomodulation Therapy Services      
                   name="chatbubble-outline"
                   aria-hidden="true"
                 ></ion-icon>
-                <span class="span">0 Comments</span>
+                <span class="span"></span>
               </li>
             </ul>
 
             <h3 class="h5">
               <a href="#" class="card-title">
-                Boosting Brain Health with Photobiomodulation Therapy
               </a>
             </h3>
           </div>
@@ -633,7 +623,7 @@ Experience the various benefits of our Photobiomodulation Therapy Services      
                   name="chatbubble-outline"
                   aria-hidden="true"
                 ></ion-icon>
-                <span class="span">0 Comments</span>
+                <span class="span">0 reviews</span>
               </li>
             </ul>
 
@@ -654,7 +644,7 @@ Experience the various benefits of our Photobiomodulation Therapy Services      
           >
             <img
               src="./assets/images/Focused Gymnast in Action.png"
-              width="770"
+               width="770"
               height="550"
               loading="lazy"
               alt="Pain Relief and Recovery with Photobiomodulation"
@@ -677,7 +667,7 @@ Experience the various benefits of our Photobiomodulation Therapy Services      
                   name="chatbubble-outline"
                   aria-hidden="true"
                 ></ion-icon>
-                <span class="span">0 Comments</span>
+                <span class="span">0 reviews</span>
               </li>
             </ul>
 
@@ -710,8 +700,8 @@ Experience the various benefits of our Photobiomodulation Therapy Services      
           <div>
             <h3 class="h6">Hotline</h3>
 
-            <a href="tel:+27123456789" class="card-subtitle"
-              >+27 12 345 6789</a
+            <a href="tel:+27123456789" class="card-subtitle" id="contact-hotline"
+              ></a
             >
           </div>
         </div>
@@ -724,9 +714,9 @@ Experience the various benefits of our Photobiomodulation Therapy Services      
           </div>
 
           <div>
-            <h3 class="h6">Email Address</h3>
+            <h3 class="h6" >Email Address</h3>
 
-            <a href="mailto:info@harvagroup.com" class="card-subtitle"
+            <a href="mailto:info@harvagroup.com" class="card-subtitle" id="contact-email"
               >info@harvagroup.com</a
             >
           </div>
@@ -745,8 +735,7 @@ Experience the various benefits of our Photobiomodulation Therapy Services      
           <div>
             <h3 class="h6">Our Location</h3>
 
-            <address class="card-subtitle">
-              45 Wellness Ave, Cape Town, South Africa
+            <address class="card-subtitle" id="contact-address">
             </address>
           </div>
         </div>
@@ -860,7 +849,6 @@ Experience the various benefits of our Photobiomodulation Therapy Services      
         </li>
       </ul>
     </div>
-
     <div class="footer-bottom">
       <div>
         <ul class="footer-bottom-list">
@@ -868,8 +856,8 @@ Experience the various benefits of our Photobiomodulation Therapy Services      
             <a href="#" class="footer-bottom-link">Where to Find Us</a>
           </li>
 
-          <li>
-            <a href="#" class="footer-bottom-link">Terms & Conditions</a>
+          <li> 
+            <a href="#" class="footer-bottom-link">Terms & Condition</a>
           </li>
 
           <li>
