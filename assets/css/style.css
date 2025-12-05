@@ -1853,7 +1853,7 @@ body {
 }
 
 .contact-form button:hover {
-    background-color: #db730b;
+    background-color: var(--yellow-green);
 }
 
 /* Google Frame */
@@ -1872,4 +1872,25 @@ body {
   width: 100%;
   height: 100%;
   border: 0;
+}
+
+
+/* Whatsapp button */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	left:40px;
+	background-color:var(--yellow-green);
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px var(--white);
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
 }

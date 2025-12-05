@@ -98,7 +98,7 @@ Promise.all([
 
     // Feature cards
     cards.forEach((card, i) => {
-      const el = document.getElementById(`hero-card-${i+1}`);
+      const el = document.getElementById(`hero-card-${i + 1}`);
       if (!el) return;
       const subtitleEl = el.querySelector(".card-subtitle");
       const titleEl = el.querySelector(".card-title");
@@ -179,7 +179,7 @@ fetch(`${SUPABASE_URL}/rest/v1/statistics?select=*&order=display_order.asc`, { h
   .then(data => {
     const container = document.getElementById("stats-list");
     if (!container) return;
-    
+
     container.innerHTML = data.map(stat => `
       <li class="stats-card">
         <h3 class="h3 card-title">${stat.number}</h3>
@@ -318,7 +318,7 @@ Promise.all([
         hotlineEl.innerHTML = contact.hotline;
         hotlineEl.href = `tel:${contact.hotline}`;
       }
-
+      gh
       const emailEl = document.getElementById("contact-email");
       if (emailEl) {
         emailEl.innerHTML = contact.email;
